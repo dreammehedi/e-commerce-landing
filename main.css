@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+.main-color {
+  color: #ff6f61;
+}
+.dark-gray {
+  color: #333333;
+}
+.light-gray {
+  color: #f5f5f5;
+}
+.white {
+  color: #ffffff;
+}
+.black {
+  color: #000000;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
