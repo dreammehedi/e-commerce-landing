@@ -10,6 +10,7 @@ html {
 }
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: #f5f5f5;
 }
 ul {
   list-style: none;
@@ -133,7 +134,7 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  max-width: 900px;
+  max-width: 800px !important;
 }
 .featured-section-title-desc h2 {
   font-size: 2rem;
@@ -149,7 +150,6 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  margin-top: 30px;
 }
 
 .product-card {
@@ -157,6 +157,7 @@ p {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
 }
 
 .product-card img {
@@ -195,4 +196,55 @@ p {
 
 .product-card .cta-button:hover {
   background-color: #a0312c;
+}
+
+/* about us */
+.about-us {
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-us h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us .mission-statement {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.about-us .values {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 2rem;
+}
+
+.about-us .value-item {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-us .value-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #ff6f61;
+}
+
+.about-us .value-item p {
+  font-size: 1em;
+  color: #666;
 }
